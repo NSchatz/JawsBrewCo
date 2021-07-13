@@ -1,0 +1,48 @@
+/* Main */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav */
+.nav{
+    height: 10%;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+.nav ul li{
+    float: left;
+    
+}
+.nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #333;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    background-color: rgb(129, 127, 127);
+}
+
+/* Section 1 */
+.section1 h1{
+    text-align: center;
+    margin: 20px;
+}
+.section1 p{
+    margin: 10px;
+    padding: 10px;
+}
+#Sectiontitle{
+    font-size: 20px;
+    
+}
+
+/* Footer  */
