@@ -4,6 +4,23 @@
     padding: 0;
 }
 
+/* Header */
+.header{
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+    background-image: url(/pexels-elevate-1267330\ \(1\).jpg);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.header h1{
+    font-size: 100px;
+    
+}
+.header p{
+    font-size: 25px;
+
+}
 /* Nav */
 .nav{
     height: 10%;
@@ -29,9 +46,18 @@
 }
 .nav ul li a:hover{
     background-color: rgb(129, 127, 127);
+    background-size: ;
 }
 
 /* Section 1 */
+.section1{
+    width:45%;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+
+}
 .section1 h1{
     text-align: center;
     margin: 20px;
@@ -44,5 +70,39 @@
     font-size: 20px;
     
 }
+.middle{ 
+    line-height: 2;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #333;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* Article */
+.article{
+    width: 45%;
+    margin: 20px 5px;
+    padding: 20px 20px;
+    background-color: rgb(180, 180, 180);
+    border-radius: 10px;
+}
+.article h1{
+    text-align: center;
+    margin: 20px;
+}
+.article p{
+    margin: 10px;
+    padding: 10px;
+}
 
 /* Footer  */
+footer{
+    background-color: rgb(180, 180, 180);
+    padding: 0 30%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
